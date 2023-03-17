@@ -1442,13 +1442,13 @@ html.no-infinite-scroll .pagination {
 }
 .gh-canvas {
   display: grid;
-  grid-template-columns:
-    [full-start] minmax(max(4vmin, 20px), auto) [wide-start] minmax(auto, 240px)
-    [main-start] min(720px, calc(100% - max(8vmin, 40px))) [main-end] minmax(
+  grid-template-columns: [full-start] minmax(max(4vmin, 20px), auto) [wide-start] minmax(
       auto,
       240px
-    )
-    [wide-end] minmax(max(4vmin, 20px), auto) [full-end];
+    ) [main-start] min(720px, calc(100% - max(8vmin, 40px))) [main-end] minmax(
+      auto,
+      240px
+    ) [wide-end] minmax(max(4vmin, 20px), auto) [full-end];
 }
 .gh-canvas > * {
   grid-column: main-start/main-end;
